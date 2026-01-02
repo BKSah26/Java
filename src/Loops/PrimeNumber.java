@@ -13,7 +13,7 @@ public class PrimeNumber {
         }
         else{
             boolean flag = true;
-            for (int i=2; i<Math.sqrt(num); i++){
+            for (int i=2; i<Math.sqrt(num)+1; i++){
                 if (num%i == 0){
                     flag = false;
                     break;
